@@ -19,7 +19,6 @@ module.exports = {
       package: {
         include: [
           'packages/alpha/handler.js',
-          'packages/alpha/node_modules/**',
         ],
       },
       events: [
@@ -36,7 +35,6 @@ module.exports = {
       package: {
         include: [
           'packages/beta/handler.js',
-          'packages/beta/node_modules/**',
         ],
       },
       events: [

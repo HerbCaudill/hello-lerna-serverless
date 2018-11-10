@@ -1,4 +1,4 @@
-const {respond} = require('@hello-lerna-serverless/utils')
+const {respond} = require('../utils')
 
 module.exports.hello = async (event, context, callback) => {
   return {

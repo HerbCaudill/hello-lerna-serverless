@@ -1,0 +1,23 @@
+{
+  "name": "@hello-lerna-serverless/root",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "lerna run test",
+    "offline": "serverless offline",
+    "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "lerna": "^3.4.3",
+    "serverless-offline": "^3.31.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "serverless-workspaces-plugin": "^1.0.6"
+  }
+}

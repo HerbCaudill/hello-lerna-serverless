@@ -1,0 +1,12 @@
+{
+  "name": "@hello-lerna-serverless/beta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@hello-lerna-serverless/utils": "*"
+  }
+}
